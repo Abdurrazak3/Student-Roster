@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+        <style>
+    body{
+      background-color: darkblue;
+    }
+    .container{
+         width: 100%;
+    }
+    .container_in{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .hrap{
+        width: 100%;
+    }
+    .hrap_inner{
+        background-color: rgb(20, 20, 114);
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        }
+            .webname{
+                width: 50%;
+            }
+            .webname:hover{
+                background: rgb(3, 3, 29);
+            }
+            .webname_inner{
+                margin: 12px 0 0 20px;
+                color: white;
+                font-size: 17px;
+            }
+            .webname_inner:hover{
+                background-color: plum;
+            }
+            .menuwrap{
+                width: 50%;
+                height: 50px;
+            }
+            .menuwrap_inner{
+                text-align: center;
+                color: white;
+                font-size: 19px;
+            }
+            .menuwrap_inner:hover{
+                background-color: rgb(38, 38, 136);
+            }
+            .menuwrap_inner nav ul{
+                display: flex;
+                list-style: none; 
+            }
+            .menuwrap_inner nav ul li{
+                margin: 0 0 0 70px;
+                line-height: 70px;
+            }
+            .menuwrap_inner nav ul li:hover{
+                background-color: rgb(9, 9, 133);
+            }
+    .gifts{
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      background-color: rgb(3, 3, 37);
+      border: 2px solid transparent;
+      border-radius: 5px;
+      color: wheat;
+      padding: 60px 15px;
+  }
+  .get{
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 30px 0;
+  }
+  .gifts .gift img{
+      font-size: 20px;
+      color:white;
+      margin: 5px 0;
+  }
+  .gifts input{
+      font-size: 18px;
+      padding: 10px 100px;
+      width: 90%;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+  }
+  .gifts button{
+      font-size: 18px;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      position: absolute;
+      padding: 8px;
+      left: 0%;
+      top: 90.6%;
+      cursor: pointer;
+  }
+  .gifts button:hover{
+      background-color:blue;
+      color: white;
+      transition: 0.5s;
+      transform: scale(1.1);
+  }
+    </style>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+                <div class="container_in">
+                    <header>
+                        <div class="hrap">
+                            <div class="hrap_inner">
+                                <div class="webname">
+                                    <div class="webname_inner">
+                                        <h1>AbdurrakNuraAhmadSite</h1>
+                                    </div>
+                                </div>
+
+                        <div class="menuwrap">
+                        <div class="menuwrap_inner">
+                        <nav>
+                            <ul>
+                                <a href="port.html"><li class="get">Home</li></a>
+                                <a href="profile.html"><li>Profile</li></a>
+                                <a href="signup.html"><li>Sign Up</li></a>
+                                <a href="about.html"><li>About</li></a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="gifts">
+        <h1>Sign Up</h1>
+        <form action="#">
+            <p>First Name:</p>
+            <input type="text" name="first name" placeholder="First Name">
+            <p>Surname:<p>
+            <input type="text" name="surname" placeholder="Surname">
+            <p>E-mail:</p>
+            <input type="text" name="email" placeholder="E-mail">
+            <p>password:</p>
+            <input type="password" name="password" placeholder="password" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
